@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>
+	Carbanio Form
+	</title>
+<head>
+	
+	<link rel="stylesheet" href="style.css">
+	<h1 style="text-align:center"> <td><img src="c image.png" width="4%" height="45px" font color="white"></td> Carbanio </h1>
+	<hr>
+	<h2 style="text-align:center">PLEASE RESPOND TO THE CUSTOMIZED CHEMICAL REQUIREMENT</h2>
+</head>
+<body>
+	<form onsubmit="event.preventDefault();onformsubmit();"autocomplete="off">
+	<form>
+	<div class="table">
+   <div class="column1">
+       <div class="row1">Product Details</div>  	
+       <div class="row"><u>Erioglaucine sodium salt</u><br>CAS No. 19774-82-4</div>
+       <div class="row"><u>Varenicline Nitraso Impurity</u><br>CAS No. 19774-82-4</div>
+       <div class="row"><u>MANGANESE DIOXIDE Extra Pure</u><br>CAS No. 19774-82-4</div>
+       <div class="row"><u>Diethanolamine(For Synthesis)</u><br>CAS No. 19774-82-4</div>
+       <div class="row"><u>Cyclohexylamine extrapure Ar</u><br>CAS No. 19774-82-4</div>
+   </div>
+   <div class="column2">
+   	   <div class="row2">Purity</div>
+       <div class="row">99.9</div>
+       <div class="row">38</div>
+       <div class="row">100</div>
+       <div class="row">99</div>
+       <div class="row">90</div>
+   </div>
+   <div class="column3">
+   	<div class="row3">Weights</div>
+       <div class="row">50</div>
+       <div class="row">10</div>
+       <div class="row">100</div>
+       <div class="row">1</div>
+       <div class="row">3</div>
+   </div>
+   <div class="column4">
+   	<div class="row4">Packs</div>
+       <div class="row">10</div>
+       <div class="row">5</div>
+       <div class="row">1</div>
+       <div class="row">3</div>
+       <div class="row">6</div>
+   </div>
+   <div class="column5">
+   	<div class="row5">Will you Supply this Chemical?</div>
+       <div class="row">
+       	<button id = "click1" onclick = "changeColor1()">
+		Yes
+	</button>
+	<button id = "click2" onclick = "changeColor2()">
+		No
+	</button></div>
+       <div class="row">
+       	<button id = "click3" onclick = "changeColor3()">
+		Yes
+	</button>
+	<button id = "click4" onclick = "changeColor4()">
+		No
+	</button></div>
+       <div class="row">
+       	<button id = "click5" onclick = "changeColor5()">
+		Yes
+	</button>
+	<button id = "click6" onclick = "changeColor6()">
+		No
+	</button></div>
+       <div class="row">
+       	<button id = "click7" onclick = "changeColor7()">
+		Yes
+	</button>
+	<button id = "click8" onclick = "changeColor8()">
+		No
+	</button></div>
+       <div class="row">
+       	<button id = "click9" onclick = "changeColor9()">
+		Yes
+	</button>
+	<button id = "click10" onclick = "changeColor10()">
+		No
+	</button> </div>
+   </div>
+</div>
+</form>
+
+<form>	
+	<input class="button" onsubmit="savedata()" type="submit" value="SUBMIT" />
+</form>
+<script>
+		var btn1 = document.getElementById("click1");
+		var btn2 = document.getElementById("click2");
+		var btn3 = document.getElementById("click3");
+		var btn4 = document.getElementById("click4");
+		var btn5 = document.getElementById("click5");
+		var btn6 = document.getElementById("click6");
+		var btn7 = document.getElementById("click7");
+		var btn8 = document.getElementById("click8");
+		var btn9 = document.getElementById("click9");
+		var btn10 = document.getElementById("click10");
+
+
+		function changeColor1(){
+			btn1.style.backgroundColor='blue';
+		}
+		function changeColor2(){
+			btn2.style.backgroundColor='blue';
+		}
+		function changeColor3(){
+			btn3.style.backgroundColor='blue';
+		}
+		function changeColor4(){
+			btn4.style.backgroundColor='blue';
+		}
+		function changeColor5(){
+			btn5.style.backgroundColor='blue';
+		}
+		function changeColor6(){
+			btn6.style.backgroundColor='blue';
+		}
+		function changeColor7(){
+			btn7.style.backgroundColor='blue';
+		}
+		function changeColor8(){
+			btn8.style.backgroundColor='blue';
+		}
+		function changeColor9(){
+			btn9.style.backgroundColor='blue';
+		}
+		function changeColor10(){
+			btn10.style.backgroundColor='blue';
+		}
+    </script>
+</body>
+
+</html>
